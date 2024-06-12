@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  height: 80vh; /* Full viewport height */
+  padding: 20px;
+}
+
+.icon-display {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+
+.icon-display:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .icon-display {
+    width: 80px;
+    height: 80px;
+  }
+}

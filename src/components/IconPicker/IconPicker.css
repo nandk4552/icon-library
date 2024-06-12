@@ -1,0 +1,22 @@
+.icon-picker {
+  overflow: hidden;
+}
+
+.icon-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.icon-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.icon-cell:hover {
+  background: #e0e0e0;
+}
